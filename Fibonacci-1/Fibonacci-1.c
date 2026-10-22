@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// uzemdeki sorulara bak
+
 int main()
 {
     float x[1000];
@@ -19,3 +21,6 @@ int main()
 
     printf("x[%d]=%.0f", k, x[k]);
 }
+
+// bilgisayar programlama 1 dersini alan 44 öğrencinin vize not
+// ortalamasından küçük en büyük nota sahip olan öğrencinin vize notunu bulan c programını kodlanıyız
