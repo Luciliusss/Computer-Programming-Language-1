@@ -4,7 +4,7 @@ int main()
 {
     // arithmetic operators = + - * / % ++ --
 
-    int x = 10;
+    int x = 314562;
     int y = 3;
     int z = 0;
 
