@@ -41,7 +41,7 @@ int main()
     değerleri bir index'e ata ve o indexdeki en büyüğü bul*/
 
     float alt[10];
-    int k;
+    int k = 0;
 
     for (int i = 0; i < 10; i++)
     {
