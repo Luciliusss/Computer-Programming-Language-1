@@ -2,10 +2,10 @@
 
 int main()
 {
-    float vize[5];
-    float final[5];
+    float vize[40];
+    float final[40];
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 40; i++)
     {
         printf("%d. Vize notunu giriniz: ", i + 1);
         scanf("%f", &vize[i]);
@@ -18,17 +18,17 @@ int main()
     float vizeOrt;
     float finalOrt;
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 40; i++)
     {
         vizeToplam += vize[i];
     }
 
-    vizeOrt = vizeToplam / 5;
+    vizeOrt = vizeToplam / 40;
 
     float vBfVizeToplam = 0; // vizeden büyük final notuna sahip olan öğrencilerin vize notları toplamı
     int n = 0;
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 40; i++)
     {
         if (final[i] > vizeOrt)
         {
