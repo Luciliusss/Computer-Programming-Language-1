@@ -42,8 +42,8 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        SapmaKareYi += (Yi[i] - YiOrtalama) * (Yi[i] - YiOrtalama); // Xi için sapmaların kareleri toplamı
-        SapmaKareXi += (Xi[i] - XiOrtalama) * (Xi[i] - XiOrtalama); // Yi için sapmaların kareleri toplamı
+        SapmaKareYi += (Yi[i] - YiOrtalama) * (Yi[i] - YiOrtalama); // Yi için sapmaların kareleri toplamı
+        SapmaKareXi += (Xi[i] - XiOrtalama) * (Xi[i] - XiOrtalama); // Xi için sapmaların kareleri toplamı
     }
 
     float sonuc = ((Xi_YiToplam) - (((XiToplam) * (YiToplam)) / n)) / // basit doğrusal regresyonun hesaplanması
