@@ -4,10 +4,9 @@ int main()
 {
     float Xi[100];
     float Yi[100];
-
     int n;
 
-    print("Enter (n): ");
+    printf("Enter (n): ");
     scanf("%d", &n);
 
     // xi & yi değerlerinin indekslere atanması
@@ -21,28 +20,19 @@ int main()
 
     float XiToplam = 0;
     float YiToplam = 0;
-
-    float XiToplamKare = 1;
+    float XiKareToplam = 0;
 
     for (int i = 0; i < n; i++)
     {
         XiToplam += Xi[i];
-        YiToplam += Yi[i]; // Denklemin bölüm kısımında altta kalan toplamın sonucu
+        YiToplam += Yi[i];             // Denklemin bölüm kısımında Altta kalan toplamın sonucu
+        XiKareToplam += Xi[i] * Xi[i]; // Denklemin bölüm kısımında Üstte kalan toplamın sonucu
     }
 
     // Denklemin 1. parçasının sonucu i=1'den n'e kadar xi'lerin toplamının karesi
-    XiToplamKare = XiToplam * XiToplam;
-
-    float XiKareToplam 0;
-
-    for (int i = 0; i < n; i++)
-    {
-        XiKareToplam = Xi[i] * Xi[i]; // Denklemin bölüm kısımında üstte kalan toplamın sonucu
-    }
-
-    float sonuc;
-
-    sonuc = (XiToplamKare) - (XiKareToplam / YiToplam);
+    float XiToplamKare = XiToplam * XiToplam;
+    // Sonucun hesaplanması
+    float sonuc = (XiToplamKare) - (XiKareToplam / YiToplam);
 
     printf("Sonuc : %.4f", sonuc);
 
