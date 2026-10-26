@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 
     // 𝑥[1] = 1, 𝑥[2] = 1 ve 𝑥[𝑛] = 3𝑥[𝑛 − 1] − 𝑥[𝑛 − 2] olmak üzere 𝑥[𝑘] =?
