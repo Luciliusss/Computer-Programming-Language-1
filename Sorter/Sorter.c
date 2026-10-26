@@ -2,6 +2,8 @@
 
 int main()
 {
+
+    // sayı sıralama
     int x[6];
     for (int i = 1; i <= 5; i++)
     {

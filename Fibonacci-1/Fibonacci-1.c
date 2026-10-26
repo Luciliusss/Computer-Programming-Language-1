@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-// uzemdeki sorulara bak
-
 int main()
 {
+
+    // Fibonacci
     float x[1000];
     int k;
 
