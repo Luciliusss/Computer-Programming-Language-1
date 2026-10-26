@@ -3,7 +3,7 @@
 // bilgisayar programlama 1 dersini alan 44 öğrencinin vize not
 // ortalamasından küçük en büyük nota sahip olan öğrencinin vize notunu bulan c programını kodlayınız
 
-int main()
+int main(void)
 {
     float Notes[11];
     float Sum = 0;
