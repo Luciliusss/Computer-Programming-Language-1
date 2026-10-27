@@ -48,10 +48,12 @@ int main(void)
 
 void checkBalance(float balance)
 {
+    printf("\nYour current balance is: $%.2f\n", balance);
 }
 
 float deposit()
 {
+
     return 0.0f;
 }
 
