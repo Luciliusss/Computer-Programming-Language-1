@@ -37,5 +37,5 @@ int main(void)
     printf("Şartları sağlayan öğrenci sayısı : %d,\n", sayac);
     printf("Şartları sağlayan öğrencilerin geçme notu ortalaması : %.2f", gecmeBOrtFinal);
 
-        return 0;
+    return 0;
 }
