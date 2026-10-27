@@ -8,12 +8,18 @@ int main()
     int x;
 
     srand(time(NULL));
-    srand(67);
 
     for (int i = 0; i < 10; i++)
     {
         x = rand() % 2;
-        printf("%d \n", x);
+        if (x == 1)
+        {
+            printf("Yazi , %d\n", x);
+        }
+        else if (x == 0)
+        {
+            printf("Tura , %d\n", x);
+        }
     }
 
     return 0;
