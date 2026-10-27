@@ -15,11 +15,31 @@ int main(void)
     {
         printf("\nSelect an option:\n");
         printf("\n1. Check balance\n");
-        printf("\n2. Deposit money\n");
-        printf("\n3. Withdraw money\n");
-        printf("\n4. Exit\n");
-        printf("\n4. Enter your choice: ");
+        printf("2. Deposit money\n");
+        printf("3. Withdraw money\n");
+        printf("4. Exit\n");
+        printf("\nEnter your choice: ");
         scanf("%d", &choice);
+
+        switch (choice)
+        {
+        case 1:
+            checkBalance(balance);
+            break;
+        case 2:
+            balance += deposit();
+            break;
+        case 3:
+            balance -= withdraw(balance);
+            break;
+        case 4:
+            printf("\nThank you for using the bank!");
+            break;
+
+        default:
+            printf("\n Invalid choice! please select 1 - 4 ");
+            break;
+        }
 
     } while (choice != 4);
 
