@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
-int main(void)
+int main()
 {
     int k;
     int x;
 
+    srand(time(NULL));
     srand(67);
 
     for (int i = 0; i < 10; i++)
