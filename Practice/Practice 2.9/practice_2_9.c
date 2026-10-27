@@ -55,6 +55,7 @@ float deposit()
 {
     float amount = 0.0f;
     printf("\nEnter amount of deposit: $");
+    scanf("%f", &amount);
 
     if (amount < 0)
     {
@@ -72,5 +73,25 @@ float deposit()
 
 float withdraw(float balance)
 {
+    float amount = 0.0f;
+
+    printf("\nEnter amount to withdraw: $");
+    scanf("%f", &amount);
+
+    if (amount < 0)
+    {
+        printf("Invalid amount\n");
+        return 0.0f;
+    }
+    else if (amount > balance)
+    {
+        printf("Insufficient funds! Your balance is $%.2f\n", balance);
+    }
+    else
+    {
+        printf("Successfully withdrew $%.2f\n", amount);
+        return amount;
+    }
+
     return 0.0f;
 }
