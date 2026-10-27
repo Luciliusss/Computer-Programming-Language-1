@@ -21,7 +21,7 @@ int main(void)
     float gecmeOrt = gecmeToplam / 40;
 
     float gecmeFinalToplam = 0;
-    int sayac = 0; // gecmeden buyuk finalleri atamak icin kullanilan sayac
+    int sayac = 0; // gecmeden buyuk finalleri atamak icin kullanılan sayac
 
     for (int i = 0; i < 40; i++)
     {
@@ -37,5 +37,5 @@ int main(void)
     printf("Şartları sağlayan öğrenci sayısı : %d,\n", sayac);
     printf("Şartları sağlayan öğrencilerin geçme notu ortalaması : %.2f", gecmeBOrtFinal);
 
-    return 0;
+        return 0;
 }
