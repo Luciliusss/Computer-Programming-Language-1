@@ -53,6 +53,19 @@ void checkBalance(float balance)
 
 float deposit()
 {
+    float amount = 0.0f;
+    printf("\nEnter amount of deposit: $");
+
+    if (amount < 0)
+    {
+        printf("Invalid amount\n");
+        return 0.0f;
+    }
+    else
+    {
+        printf("Successfully deposited $%.2f", amount);
+        return amount;
+    }
 
     return 0.0f;
 }
