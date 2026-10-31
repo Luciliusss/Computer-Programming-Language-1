@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int n;
     float x[1000];
@@ -54,7 +54,7 @@ int main()
         medyan = (x[n / 2] + x[n / 2 - 1]) / 2;
     }
 
-    printf("En küçük: %.2f\n", x[0]);
+        printf("En küçük: %.2f\n", x[0]);
     printf("En büyük: %.2f\n", x[n - 1]);
     printf("Toplam : %.2f\n", toplam);
     printf("Medyan: %.2f", medyan);
