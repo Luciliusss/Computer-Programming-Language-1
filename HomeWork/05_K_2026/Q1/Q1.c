@@ -2,9 +2,9 @@
 
 int main(void)
 {
+    // SORU 1
 
     // 𝑥[1] = 1, 𝑥[2] = 1 ve 𝑥[𝑛] = 3𝑥[𝑛 − 1] − 𝑥[𝑛 − 2] olmak üzere 𝑥[𝑘] =?
-    // İşleminin sonucunu bulan Dev - C++ programını kodlayınız(20 Puan).
 
     float x[1000];
     int k = 0;

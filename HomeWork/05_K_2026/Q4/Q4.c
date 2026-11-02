@@ -3,6 +3,8 @@
 int main(void)
 {
 
+    // SORU 4
+
     int n = 1000;
     int x = 0;
     int asal[10];

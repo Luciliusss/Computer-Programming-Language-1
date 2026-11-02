@@ -2,6 +2,11 @@
 
 int main(void)
 {
+    // SORU 2
+
+    // 40 öğrencinin vize ve final notlarını alan ve vizeden notlarının ortalamasından
+    // büyük final notuna sahip öğrencilerin vize ortalamalarını bulan program
+
     float vize[40];
     float final[40];
 

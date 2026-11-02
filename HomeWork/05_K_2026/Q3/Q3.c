@@ -2,6 +2,9 @@
 
 int main(void)
 {
+
+    // SORU 3
+
     int n;
     float x[1000];
 
