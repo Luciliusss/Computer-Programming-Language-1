@@ -14,10 +14,7 @@ int main(void)
         scanf("%f", &x[i]);
     }
 
-    float enK;
-    float enB;
     float toplam = 0;
-    float ort;
     float medyan;
 
     float y[1000];
@@ -54,8 +51,13 @@ int main(void)
         medyan = (x[n / 2] + x[n / 2 - 1]) / 2;
     }
 
-        printf("En küçük: %.2f\n", x[0]);
-    printf("En büyük: %.2f\n", x[n - 1]);
+    float enK = x[0];
+    float enB = x[n - 1];
+    float ort = toplam / n;
+
+    printf("En küçük: %.2f\n", enK);
+    printf("En büyük: %.2f\n", enB);
+    printf("Ortalama: %.2f\n", ort);
     printf("Toplam : %.2f\n", toplam);
     printf("Medyan: %.2f", medyan);
 
