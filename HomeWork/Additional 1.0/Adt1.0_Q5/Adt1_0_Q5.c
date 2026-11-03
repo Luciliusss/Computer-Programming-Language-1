@@ -41,5 +41,5 @@ int main()
 
     float sonuc = pow(farkKareToplam, 0.5) / pow(xiTyi_Toplam - (xi_Toplam * yi_Toplam), 2);
 
-    printf("%.3f", sonuc);
+    printf("%f", sonuc);
 }
