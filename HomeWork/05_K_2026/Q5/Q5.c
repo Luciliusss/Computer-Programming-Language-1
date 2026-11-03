@@ -3,6 +3,9 @@
 
 int main(void)
 {
+
+    // SORU 5
+
     float Xi[100];
     float Yi[100];
     int n;
