@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(void)
+main()
 {
 
     // SORU 5
@@ -53,6 +53,4 @@ int main(void)
                   ((XiKareToplam) - ((XiToplamKare) / n)) / (sqrt((SapmaKareYi) / ((n - 2) * (SapmaKareXi))));
 
     printf("Sonuc: %.4f", sonuc); // sonucun yazılması
-
-    return 0;
 }

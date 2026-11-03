@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+main()
 {
     // SORU 2
 
@@ -47,6 +47,4 @@ int main(void)
     vBfVizeToplamOrt = vBfVizeToplam / n;
 
     printf("Vizeden notlarının ortalamasından büyük final notuna sahip öğrencilerin vize ortalamaları: %.2f ", vBfVizeToplamOrt);
-
-    return 0;
 }

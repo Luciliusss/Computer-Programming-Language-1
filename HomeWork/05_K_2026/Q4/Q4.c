@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+main()
 {
 
     // SORU 4
@@ -39,6 +39,4 @@ int main(void)
     asalOrt = asalToplam / 10;
 
     printf("1000den büyük ilk 10 asal sayının ortalaması: %d", asalOrt);
-
-    return 0;
 }

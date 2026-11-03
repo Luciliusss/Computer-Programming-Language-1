@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+main()
 {
     // SORU 1
 
@@ -21,6 +21,4 @@ int main(void)
     }
 
     printf("x[%d] = %.f", k, x[k]);
-
-    return 0;
 }
