@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+main()
 {
 
     // SORU 3
@@ -64,5 +64,4 @@ int main(void)
     printf("Toplam : %.2f\n", toplam);
     printf("Medyan: %.2f", medyan);
 
-    return 0;
 }

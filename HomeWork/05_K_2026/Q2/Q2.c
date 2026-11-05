@@ -19,7 +19,8 @@ main()
     }
 
     float vizeToplam = 0;
-    float finalToplam = 0;
+    float finalToplam = 0; 
+    
     float vizeOrt;
     float finalOrt;
 
