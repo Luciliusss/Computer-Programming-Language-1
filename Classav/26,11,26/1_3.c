@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int faktoriyel(int k);
+double faktoriyel(int k);
 
 int main(void)
 {
@@ -12,13 +12,13 @@ int main(void)
     printf("k sayisini giriniz: ");
     scanf("%d", &k);
 
-    printf("%d! = %d\n", k, faktoriyel(k));
+    printf("%d! = %.0lf\n", k, faktoriyel(k));
     return 0;
 }
 
-int faktoriyel(int k)
+double faktoriyel(int k)
 {
-    int sonuc = 1;
+    double sonuc = 1;
     for (int i = 1; i <= k; i++)
     {
         sonuc *= i;
